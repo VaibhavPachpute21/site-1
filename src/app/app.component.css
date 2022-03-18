@@ -1,0 +1,99 @@
+.navbar{
+
+	background-color: seashell;
+}
+
+.navbar .nav-item .nav-link{
+	color:black;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.navbar .nav-item .nav-link:hover{
+	color:blue;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.banner img{
+	height: 100%;
+	 background-position: center;
+	 object-position: center;
+	 overflow: hidden;
+}
+
+.bannerContents{
+	color: white;
+	overflow: hidden;
+	position: absolute;
+	top: 25%;
+	left: 10%;
+	
+}
+
+.bannerContents a{
+	border-radius: 100px;
+	color: white;
+	font-weight: 600;
+	font-size: 22px;
+}
+
+.whyUs p{
+	padding: 10px 100px;
+}
+
+
+.card{
+	padding: 10px;
+}
+
+.mySlider{
+	padding: 10px 100px;
+}
+
+.mySlider img{
+	height: 450px;
+}
+
+.madgeniuses{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	height: 100%;
+}
+
+@media screen and (max-width:600px) {
+	.banner img{
+		height: 600px;
+		 background-position: center;
+		 object-position: center;
+		 object-fit: cover;
+		 overflow: hidden;
+	}
+
+	.bannerContents {
+		left: 10px;
+		top: 90px;
+	}
+	.bannerContents h1{
+		font-size: 24px;
+	}
+	.bannerContents h2{
+		font-size: 20px;
+	}
+
+	.whyUs p{
+		padding: 10px 10px;
+	}
+
+	.mySlider{
+		padding: 10px;
+	}
+	.mySlider img{
+		height: 200px;
+	}
+	
+}
+
+
+
+
